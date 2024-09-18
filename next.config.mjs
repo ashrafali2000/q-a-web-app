@@ -4,7 +4,8 @@ const nextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "https://backend-open-ai-five.vercel.app/:path*",
+        // destination: "https://backend-open-ai-five.vercel.app/:path*",
+        destination: "https://backend-open-ai-dwl5.vercel.app/:path*",
       },
     ];
   },
